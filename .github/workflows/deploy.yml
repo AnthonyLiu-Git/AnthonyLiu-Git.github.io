@@ -21,6 +21,5 @@ jobs:
           script: |
             cd AnthonyLiu-Git.github.io
             git pull
-            cd .. 
-            cp -a AnthonyLiu-Git.github.io ../../pub/ -f
+            cp -r ../AnthonyLiu-Git.github.io ../../pub/ -f
  
