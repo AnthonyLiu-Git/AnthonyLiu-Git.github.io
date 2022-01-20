@@ -18,7 +18,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            rm -rf AnthonyLiu-Git.github.io
-            cd ../pub
+            cd ~/../pub
+            unalias rm
             rm -rf AnthonyLiu-Git.github.io
  
