@@ -19,8 +19,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd AnthonyLiu-Git.github.io
+            cd ~/../pub/AnthonyLiu-Git.github.io
             git pull
-            cd ..
-            cp -r AnthonyLiu-Git.github.io ../pub/
- 
