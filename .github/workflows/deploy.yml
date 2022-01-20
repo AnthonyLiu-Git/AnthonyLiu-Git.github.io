@@ -21,6 +21,6 @@ jobs:
           script: |
             cd AnthonyLiu-Git.github.io
             git pull
-            mkdir ../../pub/AnthonyLiu-Git.github.io
+            mkdir -p ../../pub/AnthonyLiu-Git.github.io
             cp -a ./. ../../pub/AnthonyLiu-Git.github.io -f
  
